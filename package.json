@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Small Node.js web app used to practice a CI/CD pipeline with GitHub Actions and Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "author": "Jithendra Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
